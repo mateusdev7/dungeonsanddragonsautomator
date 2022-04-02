@@ -47,4 +47,34 @@
   .font-p-1-bold {
     font-size: 0.85rem;
   }
+  .font-c-bold {
+    font-size: 1rem;
+  }
+  .font-p-2-semi-bold, .font-cinzel {
+    font-size: 3rem;
+  }
+  .font-r-1-regular, .font-r-2-bold {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-c-bold {
+    font-size: 0.8rem;
+  }
+  .font-p-2-semi-bold, .font-cinzel {
+    font-size: 2rem;
+  }
+  .font-r-1-regular, .font-r-2-bold {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .font-p-2-semi-bold, .font-cinzel {
+    font-size: 1.5rem;
+  }
+  .font-r-1-regular, .font-r-2-bold {
+    font-size: 0.8rem;
+  }
 }

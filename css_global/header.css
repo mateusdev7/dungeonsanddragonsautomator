@@ -82,11 +82,14 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .header-conteudo,
   .header-menu {
     justify-content: center;
   }
+}
+
+@media (max-width: 400px) {
   .header-menu {
     gap: 4px 12px;
   }
