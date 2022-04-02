@@ -41,3 +41,10 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
+
+@media (max-width: 1000px) {
+  .font-p-1-bold {
+    font-size: 0.85rem;
+  }
+}

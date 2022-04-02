@@ -1,0 +1,8 @@
+/* Global */
+@import "/css_global/resets.css";
+@import "/css_global/header.css";
+
+/* Componentes */
+@import "/css_componentes/componentes.css";
+@import "/css_componentes/cores.css";
+@import "/css_componentes/fontes.css";
