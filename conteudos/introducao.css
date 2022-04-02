@@ -1,0 +1,63 @@
+.introducao-bg {
+  background-image: url("../imagens/introducao/bg_introducao_foto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.introducao-conteudo h3 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.introducao-conteudo h3::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--cor-w3);
+  position: absolute;
+  margin-top: 4px;
+  border-radius: 20px;
+}
+
+.introducao-conteudo h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.introducao-conteudo p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.botao a {
+  background: linear-gradient(#495057, #6c757d);
+  box-shadow: 0px 5px 10px rgba(222, 226, 230, 0.25);
+  border-radius: 20px;
+  padding: 16px 28px;
+  display: inline-block;
+}
+
+.botao a:hover {
+  background: linear-gradient(#454e57, #616d77);
+}
+
+.introducao-opcoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.iniciar-agora {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  justify-items: center;
+}
