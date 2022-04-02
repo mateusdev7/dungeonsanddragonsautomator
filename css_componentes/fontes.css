@@ -1,0 +1,43 @@
+.font-p-1-bold {
+  font: 700 1rem/1.5 "Poppins", sans-serif; /* Poppins 700 16/24*/
+}
+
+.font-p-2-semi-bold {
+  font: 600 3.75rem/1.2 "Poppins", sans-serif; /* Poppins 600 60/72*/
+}
+
+.font-p-3-medium {
+  font: 500 1rem/1.5 "Poppins", sans-serif; /* Poppins 500 16/24*/
+}
+
+.font-p-4-medium {
+  font: 500 1.75rem/1.14 "Poppins", sans-serif; /* Poppins 500 28/32*/
+}
+
+.font-p-5-medium {
+  font: 500 1.5rem/1.5 "Poppins", sans-serif; /* Poppins 500 24/36*/
+}
+
+.font-c-bold {
+  font: 700 1.25rem/1.2 "Cormorant Garamond", serif; /* Cormorant Garamond 500 20/24*/
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.font-r-1-regular {
+  font: 400 1.5rem/1.3 "Roboto", sans-serif; /* Roboto 400 24/32*/
+}
+
+.font-r-2-bold {
+  font: 700 1.5rem/1.3 "Roboto", sans-serif; /* Roboto 700 24/32*/
+}
+
+.font-r-3-regular {
+  font: 400 1rem/1.5 "Roboto", sans-serif; /* Roboto 400 16/24*/
+}
+
+.font-cinzel {
+  font: 900 3.75rem/1.2 "Cinzel Decorative", cursive; /* Cinzel Decorative 900 60/72*/
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
