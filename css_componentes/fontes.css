@@ -58,6 +58,15 @@
   }
 }
 
+@media (max-width:800px) {
+  .font-p-4-medium {
+    font-size: 1.2rem;
+  }
+  .font-r-3-regular {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 600px) {
   .font-c-bold {
     font-size: 0.8rem;
