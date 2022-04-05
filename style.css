@@ -1,12 +1,12 @@
 /* Global */
-@import "/css_global/resets.css";
-@import "/css_global/header.css";
+@import "./css_global/resets.css";
+@import "./css_global/header.css";
 
 /* Componentes */
-@import "/css_componentes/componentes.css";
-@import "/css_componentes/cores.css";
-@import "/css_componentes/fontes.css";
+@import "./css_componentes/componentes.css";
+@import "./css_componentes/cores.css";
+@import "./css_componentes/fontes.css";
 
 /* Conteudos */
-@import "/conteudos/introducao.css";
-@import "/conteudos/vantagens.css";
+@import "./conteudos/introducao.css";
+@import "./conteudos/vantagens.css";
