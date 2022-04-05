@@ -21,8 +21,7 @@
   align-items: center;
 }
 
-.botao-inicio a,
-.botao-comecar a {
+.botao-inicio a {
   display: inline-block;
 }
 
@@ -48,20 +47,6 @@
   padding: 16px 0;
 }
 
-.botao-comecar a {
-  border: 4px solid var(--cor-p1);
-  border-radius: 20px;
-  padding: 8px 12px;
-  color: var(--cor-brancototal);
-}
-
-.botao-comecar a:hover {
-  background: var(--cor-p1);
-  border-color: var(--cor-p1);
-  color: var(--cor-brancototal);
-  transition: 0.3s;
-}
-
 @media (max-width: 1000px) {
   .header-menu {
     gap: 20px;
@@ -76,9 +61,6 @@
   }
   .botao-inicio a:hover {
     background: var(--cor-w8);
-  }
-  .botao-comecar a {
-    padding: 8px;
   }
 }
 

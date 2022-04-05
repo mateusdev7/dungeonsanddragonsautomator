@@ -77,6 +77,9 @@
   .font-r-1-regular, .font-r-2-bold {
     font-size: 0.9rem;
   }
+  .font-r-3-regular {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 350px) {
