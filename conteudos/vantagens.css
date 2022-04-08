@@ -6,7 +6,7 @@
 }
 
 .vantagens-conteudo {
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .vantagens-lista {
@@ -15,10 +15,10 @@
   justify-items: center;
   justify-content: center;
   align-items: center;
-  max-width: 1800px;
+  max-width: 1400px;
   padding-bottom: 120px;
   margin: 0 auto;
-  gap: 60px;
+  gap: 60px 60px;
 }
 
 .vantagens-lista li {

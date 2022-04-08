@@ -89,4 +89,7 @@
   .font-r-1-regular, .font-r-2-bold {
     font-size: 0.8rem;
   }
+  .font-c-bold {
+    font-size: 0.7rem;
+  }
 }

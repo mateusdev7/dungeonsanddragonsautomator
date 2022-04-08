@@ -17,9 +17,9 @@
 
 .botao a{
   display: inline-block;
-  border: 2px solid var(--cor-p1);
+  border: 3px solid var(--cor-p1);
   border-radius: 20px;
-  padding: 8px 12px;
+  padding: 12px 20px;
   color: var(--cor-brancototal);
 }
 
@@ -32,6 +32,12 @@
 
 @media (max-width: 1000px) {
   .botao a {
-    padding: 8px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .botao a {
+    padding: 4px 16px;
   }
 }
