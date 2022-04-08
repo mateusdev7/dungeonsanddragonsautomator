@@ -31,7 +31,7 @@
 .vantagens-lista li:hover {
   background: linear-gradient(#06070c, #06070c, #101320);
   border-radius: 20px;
-  box-shadow: 0px 2px 10px #dee2e6;
+  box-shadow: 0px 1px 5px var(--cor-w3);
 }
 
 .vantagens-lista li p {
@@ -69,11 +69,17 @@
   margin-bottom: 60px;
 }
 
+@media (max-width: 1000px) {
+  .vantagens-bg {
+    background-image: url("../imagens/vantagens/bg_vantagens_menor.jpg");
+  }
+}
+
 @media (max-width: 800px) {
   .vantagens-lista li {
     background: linear-gradient(#06070c, #06070c, #101320);
     border-radius: 20px;
-    box-shadow: 0px 2px 10px #dee2e6;
+    box-shadow: 0px 1px 5px var(--cor-w3);
   }
   .vantagens-lista[disable] li:hover {
     background: none;
