@@ -32,6 +32,7 @@
   background: linear-gradient(#06070c, #06070c, #101320);
   border-radius: 20px;
   box-shadow: 0px 1px 5px var(--cor-w3);
+  transition: 0.3s;
 }
 
 .vantagens-lista li p {
@@ -90,9 +91,15 @@
     padding: 20px;
   }
   .vantagens-conteudo h1 {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
   .vantagens-conteudo {
     padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .vantagens-conteudo h1 {
+    margin-bottom: 40px;
   }
 }

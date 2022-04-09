@@ -14,7 +14,7 @@
 .introducao-conteudo h3::after {
   content: "";
   display: block;
-  height: 2px;
+  height: 3px;
   width: 100%;
   background: var(--cor-w3);
   position: absolute;
