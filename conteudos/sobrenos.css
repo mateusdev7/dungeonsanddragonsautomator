@@ -37,3 +37,22 @@
 .sobrenos-imagens img {
   border-radius: 20px;
 }
+
+@media (max-width: 800px) {
+  .sobrenos-imagens {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+}
+
+/* @media (max-width: 800px) {
+  .sobrenos-imagens img {
+    display: none;
+  }
+  .sobrenos-bg {
+    background-image: url("../imagens/sobrenos/sobre_nos_bg_menor_que_800.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+} */
