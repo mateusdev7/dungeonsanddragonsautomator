@@ -40,7 +40,6 @@
   display: grid;
   grid-template-columns: auto 1fr;
   margin-bottom: 120px;
-  gap: 20px;
 }
 
 .ferramentas-lista h3 {
@@ -82,7 +81,6 @@
     grid-template-columns: 1fr;
     justify-items: center;
     justify-content: center;
-    gap: 20px;
   }
   .item p, h3{
     text-align: center;
@@ -92,6 +90,9 @@
   }
   .ferramentas-lista {
     text-align: center;
+  }
+  .ferramentas-lista h3 {
+    margin-bottom: 4px;
   }
 }
 
