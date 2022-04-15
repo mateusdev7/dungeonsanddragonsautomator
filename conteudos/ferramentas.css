@@ -29,17 +29,17 @@
 }
 
 .ferramentas-lista {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding-bottom: 120px;
-  gap: 120px 60px;
+  padding-top: 60px;
+  gap: 120px;
 }
 
 .item {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 120px;
   gap: 20px;
 }
 
@@ -54,7 +54,6 @@
 
 .ferramentas-lista a {
   position: relative;
-  max-width: max-content;
 }
 
 .ferramentas-lista a::after {
@@ -75,6 +74,39 @@
 .ferramentas-lista a:hover:after {
   background: var(--cor-p1);
   transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+  .item {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .item p, h3{
+    text-align: center;
+  }
+  .ferramentas-lista a::after {
+    display: none;
+  }
+  .ferramentas-lista {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .ferramentas-lista {
+  grid-template-columns: 1fr;
+  padding-top: 40px;
+  gap: 0px;
+  }
+  .ferramentasutilizadas-conteudo h1 {
+    margin-bottom: 20px;
+  }
+  .item {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 400px) {
