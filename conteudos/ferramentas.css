@@ -31,7 +31,6 @@
 .ferramentas-lista {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-bottom: 120px;
   padding-top: 60px;
   gap: 120px;
 }
