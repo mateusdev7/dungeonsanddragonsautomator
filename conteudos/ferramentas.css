@@ -49,13 +49,15 @@
 
 .ferramentas-lista p {
   margin-bottom: 12px;
+  max-width: 35ch;
 }
 
-.ferramentas-lista a {
+.ferramentas-texto a {
+  max-width: max-content;
   position: relative;
 }
 
-.ferramentas-lista a::after {
+.ferramentas-texto a::after {
   content: "";
   display: block;
   height: 3px;
@@ -65,28 +67,30 @@
   border-radius: 20px;
 }
 
-.ferramentas-lista a:hover {
+.ferramentas-texto a:hover {
   color: var(--cor-p1);
   transition: 0.3s;
 }
 
-.ferramentas-lista a:hover:after {
+.ferramentas-texto a:hover:after {
   background: var(--cor-p1);
   transition: 0.3s;
 }
 
 @media (max-width: 800px) {
   .item {
-    display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     justify-content: center;
   }
-  .item p, h3{
+  .ferramentas-texto {
+    display: grid;
     text-align: center;
+    justify-items: center;
   }
-  .ferramentas-lista a::after {
-    display: none;
+  .item p,
+  h3 {
+    text-align: center;
   }
   .ferramentas-lista {
     text-align: center;
@@ -98,9 +102,9 @@
 
 @media (max-width: 600px) {
   .ferramentas-lista {
-  grid-template-columns: 1fr;
-  padding-top: 40px;
-  gap: 0px;
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    gap: 0px;
   }
   .ferramentasutilizadas-conteudo h1 {
     margin-bottom: 20px;
