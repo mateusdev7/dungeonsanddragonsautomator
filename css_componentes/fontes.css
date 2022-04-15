@@ -43,6 +43,12 @@
 }
 
 
+@media (max-width: 1300px) {
+  .font-p-2-semi-bold, .font-cinzel {
+    font-size: 2.8rem;
+  }
+}
+
 @media (max-width: 1000px) {
   .font-p-1-bold {
     font-size: 0.85rem;
