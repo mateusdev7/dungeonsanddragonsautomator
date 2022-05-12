@@ -31,3 +31,66 @@
   text-align: center;
   margin-bottom: 40px;
 }
+
+.ficha-bg {
+  background: var(--cor-black1);
+  position: relative;
+}
+
+.conteudo-ficha {
+  max-width: 1400px;
+  padding-bottom: 40px;
+  padding-top: 80px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.conteudo-ficha h3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* .ficha-bg::after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 100%;
+  background: var(--cor-w9);
+  position: absolute;
+  bottom: 90px;
+  margin-bottom: 60px;
+} */
+
+.conteudo-ficha h3::before {
+  content: url("../imagens/comecar/icon_dragon_ficha.svg");
+  display: block;
+}
+
+.formulario {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding-bottom: 200px;
+}
+
+.formulario label {
+  display: block;
+}
+
+
+#nome_personagem {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+#raca_personagem,
+#classe_personagem {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 0px 20px 20px 0px;
+}
