@@ -101,7 +101,7 @@
 .formulario input[type="text"],
 .formulario select {
   font: 400 1rem/1.5 "Roboto", sans-serif;
-  background: var(--cor-w2);
+  background: var(--cor-w3);
   outline: none;
   margin-bottom: 40px;
   padding: 8px;
