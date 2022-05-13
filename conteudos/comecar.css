@@ -52,17 +52,6 @@
   align-items: center;
 }
 
-/* .ficha-bg::after {
-  content: "";
-  display: inline-block;
-  height: 4px;
-  width: 100%;
-  background: var(--cor-w9);
-  position: absolute;
-  bottom: 90px;
-  margin-bottom: 60px;
-} */
-
 .conteudo-ficha h3::before {
   content: url("../imagens/comecar/icon_dragon_ficha.svg");
   display: block;
@@ -75,22 +64,38 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   padding-bottom: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-1 {
+  grid-column: span 1;
 }
 
 .formulario label {
   display: block;
 }
 
-
-#nome_personagem {
-  width: 100%;
-  padding: 8px 12px;
-  border-radius: 0px 20px 20px 0px;
+.formulario select {
+  cursor: pointer;
 }
 
-#raca_personagem,
-#classe_personagem {
-  width: 100%;
-  padding: 8px 12px;
+.formulario input[type="text"],
+.formulario select {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: var(--cor-w2);
+  outline: none;
+  margin-bottom: 40px;
+  padding: 8px;
   border-radius: 0px 20px 20px 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formulario input[type="text"]:focus,
+.formulario select:focus {
+  outline: none;
+  border-color: var(--cor-p1);
+  background: var(--cor-brancototal);
+  box-shadow: 0 0 0 1px #fe3238;
 }
