@@ -14,3 +14,8 @@
 @import "./conteudos/ferramentas.css";
 @import "./conteudos/livro.css";
 @import "./conteudos/comecar.css";
+
+/* Animação */
+
+@import "./css_componentes/animacao.css";
+
