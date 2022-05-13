@@ -24,6 +24,7 @@
   border-radius: 20px;
   padding: 12px 20px;
   color: var(--cor-brancototal);
+  max-width: max-content;
 }
 
 .botao:hover {
